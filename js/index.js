@@ -8,6 +8,7 @@
       closeB = $('close'),
       timer = null;
   console.log('wat', card);
+  
   openB.addEventListener('click', function () {
     card.setAttribute('class', 'open-half');
     if (timer) clearTimeout(timer);
